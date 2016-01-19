@@ -226,7 +226,7 @@ h3 {
 
 h6 {
     font-size: 16px;
-    color: #888888;
+    color: #CCCCCC;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
@@ -362,7 +362,7 @@ p {
 .top_cont_outer {
     position: relative;
     height:650px;
-    background: url('../img/abstract-free-wallpaper.jpg') no-repeat bottom fixed;
+    background: url('../img/background.jpg') no-repeat bottom fixed;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 }
@@ -1068,7 +1068,7 @@ border: 1px solid #64A633;
 
 .contact_section div i {
     font-size: 60px;
-    color: #777;
+    color: #232232;
     padding-right: 10px;
 }
 .contact_section div i.fa {
@@ -1276,7 +1276,7 @@ border: 1px solid #64A633;
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #232323;
+    background: #576359;
 }
 
 .footer_bottom {
