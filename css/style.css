@@ -11,7 +11,8 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 /* Reset
 ---------------------------------*/
 ul {
-    list-style: none;
+    list-style-type: disc;
+    line-height: 1.4;
 }
 
 .figure {
@@ -423,7 +424,27 @@ text-align: center;
 letter-spacing: 1px;
 }
 
-a.read_more, a.read_more2 {
+a.read_more{
+	font-family: 'Raleway', sans-serif;
+	display: block;
+	font-size: 16px;
+	width: 178px;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 32px auto;
+}
+
+ a.read_more2 {
     font-family: 'Raleway', sans-serif;
     display: block;
     font-size: 16px;
@@ -542,6 +563,86 @@ color:#fff;
     margin: 0 0 35px 0; 
 }
 	
+
+/* work
+---------------------------------*/
+
+#work {
+    padding: 60px 0px;
+    background: #fff;
+
+}
+#work h2{
+  color: #040404;
+
+}
+.work_wrapper {
+    padding: 40px 0 40px;
+}
+
+.work_section {
+}
+
+.work_block {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+	position: relative;
+}
+
+.work_icon {  
+    width: 90px;
+    height: 85px;
+    margin: 0px auto 25px; 
+}
+
+ 
+
+.work_icon span {
+    background: transparent; 
+    display: block;
+    height: 100%;
+    width: 100%;
+	
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.work_icon i {
+    color: #040404;
+    font-size: 50px;
+    margin-top: 0;
+    position: relative;
+    z-index: 20;
+    display: block;
+    text-align: center;
+}
+
+.work_icon i.fa {
+    top: 18px;
+}
+
+.work_icon i.icon {
+    top: 7px;
+} 
+
+.work_block h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #040404;
+margin: 35px 0 15px; 
+}
+#work h6{
+color:#040404;
+}
+.work_block p {
+    font-size: 16px;
+    color: #040404;
+    margin: 0 0 35px 0; 
+}
+	
+
 
 
 /* Latest Work
@@ -735,6 +836,7 @@ img {
 
 #clients {
     padding: 60px 0px;
+    
 }
 
 .client_area {
@@ -789,7 +891,7 @@ img {
 
 
 .client_logos {
-    background: #64A633;
+
     padding: 60px 0;
     margin-top: 60px;
 }
@@ -1370,6 +1472,7 @@ border: 1px solid #64A633;
 
 #portfolio {
     padding: 60px 0 40px;
+    background: #8FB7A2;
 }
 
 
@@ -1423,7 +1526,7 @@ border: 1px solid #64A633;
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
     letter-spacing: -1px;
-    margin: 0 0 15px;
+    margin: 0 0 16px -43px;
     text-align: center;
     text-transform: uppercase;
 }

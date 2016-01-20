@@ -197,13 +197,14 @@ h2.ss-subtitle:after{
 }
 .ss-container h3 span{
     color: rgba(255,255,255,0.8);
-    font-size: 13px;
+    font-size: 23px;
     display: block;
     padding-bottom: 5px;
 }
 .ss-container h3 a{
     color: rgba(255,255,255,0.9);
     display: block;
+    font-size: 13px;
 }
 .ss-container h3 a:hover{
 	color: rgba(255,255,255,1);
