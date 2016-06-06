@@ -11,12 +11,12 @@ var width = 800,
     maxRadius = 12;
 
 var n = 38, // total number of nodes
-    m = 5; // number of distinct clusters
+    m = 4; // number of distinct clusters
 
 var color = d3.scale.category10()
     .domain(d3.range(m));
 
-var data2 = [0, 1, 2, 3, 4, 3, 3, 2, 4, 2, 4, 0, 2, 3, 0, 0, 0, 4, 1, 4, 2, 0, 1, 1, 3, 3, 2, 0, 3, 0, 0, 4, 4, 0, 2, 3, 0, 4];
+var data2 = [0, 1, 2, 0, 1, 1, 1, 2, 0, 2, 1, 1, 1, 1, 1, 3, 1, 1, 1, 2, 0, 1, 1, 1, 1, 2, 1, 1, 0, 2, 3, 2, 2, 2, 2, 2, 2, 2];
 
 var nodes = data2.map(function(currVal, index){
     d =  {cluster: currVal, radius: 20, name: index + 1, x: Math.cos(currVal / m * 2 * Math.PI) * 200 + width / 2 + Math.random(),
@@ -24,7 +24,7 @@ var nodes = data2.map(function(currVal, index){
     return d;
 });
 
-var data1 = [0, 1, 2, 3, 4];
+var data1 = [0, 1, 2, 3];
 clusters = data1.map(function(currVal, index){
     d =  {cluster: currVal, radius: 30, name: index + 1, x: Math.cos(currVal / m * 2 * Math.PI) * 200 + width / 2 + Math.random(),
         y: Math.sin(currVal / m * 2 * Math.PI) * 200 + height / 2 + Math.random()};
