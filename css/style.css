@@ -2175,3 +2175,10 @@ float: left;
 width: 60px;
 height: auto;
 }
+
+.project-title {
+position: relative;
+top: 65px;
+font-size: x-large;
+color: black;
+}
